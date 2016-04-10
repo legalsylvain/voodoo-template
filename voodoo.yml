@@ -10,7 +10,8 @@ odoo:
   volumes:
     - .:/workspace
     - ../backup:/workspace/backup
-    - /home/ubuntu/oca_freestore_data/:/workspace/source_code
+    - /home/sylvain/oca_freestore_data/:/workspace/source_code
+    - /home/sylvain/voodoo/ak:/workspace/ak-script
   ports:
     - "9704:8069"
     - "9705:8072"
